@@ -82,6 +82,3 @@ black .
 ## :gift: License
 Licensed under the GNU General Public License v3. Copyright 2018 Rasa Technologies
 GmbH. Licensees may convey the work under this license. There is no warranty for the work.
-
-{{authors}} 
-Darshan Gadkari
