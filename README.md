@@ -34,9 +34,13 @@ Then, to run, first set up your action server in one terminal window:
 rasa run actions --actions actions.actions
 ```
 
-In another window, run the bot:
+In another window, run rasa duckling:
 ```bash
 docker run -p 8000:8000 rasa/duckling
+```
+
+In another window, run Sean the bot:
+```bash
 rasa shell --debug
 ```
 
