@@ -1,0 +1,81 @@
+
+session_config:
+  session_expiration_time: 480  # value in minutes, 0 means infinitely long
+  carry_over_slots_to_new_session: true  # set to false to forget slots between sessions
+intents:
+- affirm
+- ask_for_advisor
+- bye
+- deny
+- greet
+- thank
+- advice
+- contact_advisor
+- inform
+entities:
+  - first_name
+  - last_name
+  - email
+  - phone_number
+  - best_time_to_contact
+  - city
+  - county
+  - country
+slots:
+  first_name:
+    type: unfeaturized
+  last_name:
+    type: unfeaturized
+  email:
+    type: unfeaturized
+  phone_number:
+    type: unfeaturized
+  best_time_to_contact:
+    type: unfeaturized
+  city:
+    type: unfeaturized
+  county:
+    type: unfeaturized
+  country:
+    type: unfeaturized
+responses:
+  utter_noworries:
+    - text: No worries!
+  utter_greet:
+    - text: Hi
+  utter_bye:
+    - text: Bye!
+  utter_why_advisor:
+  - text: I can connect you with a mental health advisor, if you like.
+  utter_ask_for_advisor:
+  - text: Would you like me to?
+  utter_advisor_callback:
+  - text: Thank you, An advisor will get in touch with you very soon! Please provide the following pieces of information
+  utter_anything_else:
+  - text: Is there anything else I can help you with?
+  utter_ask_first_name:
+    - text: What is your first name?
+  utter_ask_last_name:
+    - text: "What's your last name"
+  utter_ask_email:
+    - text: "What's your email"
+  utter_ask_phone_number:
+    - text: What's the best number to reach you?
+  utter_ask_best_time_to_contact:
+    - text: What's the best time to reach you?
+  utter_ask_city:
+    - text: Which city do you live in?
+  utter_ask_county:
+    - text: Which county?
+  utter_ask_country:
+    - text: What country is that?
+
+actions:
+- action_greet_user
+- action_pause
+- action_advisor_callback
+- respond_advice
+
+forms:
+  - contact_form
+

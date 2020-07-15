@@ -1,0 +1,442 @@
+## intent:ask_for_advisor
+- Can I get some personal help?
+- I want to talk to someone about myself
+- I am not feeling great
+- I want to share something about me
+- Can I ask for advice about something?
+- I have not been sleeping well
+- I have been very anxious lately
+- I have been feeling very stressed
+- I am not sure you can help me. Can I talk to someone?
+
+## intent: advice/physical_heath
+- My legs hurt when I walk. What kind of help can I get?
+- My wrists need looked at
+- My heart hurts when I walk up the stairs
+- My back is hurting
+
+## intent: advice/mental_health
+- How do I feel positive?
+- How do I feel that my life is worth living?
+- Why does everything seem so hopeless?
+
+## intent:contact_advisor
+- I wanna talk to an advisor
+- I want to talk to a counsellor
+- I want to speak with someone who can help me
+- Need an advisor
+- Advisor
+- Advisor please
+- Help
+- Please schedule a call with an advisor
+- Please connect me to someone who can help me with my condition
+- I want to get in touch with an advisor
+- I would like to talk to someone from your counselling team
+- help please
+
+## intent:inform
+- [10am](best_time_to_contact)
+- [11:30](best_time_to_contact)
+- [15:45 works for me](best_time_to_contact)
+- [12:30pm](best_time_to_contact)
+- [2:30pm to 4:00pm](best_time_to_contact)
+- [Anytime](best_time_to_contact)
+- [Mornings is the best time](best_time_to_contact)
+- [Afternoons](best_time_to_contact)
+- [Evenings](best_time_to_contact)
+- I live in [Belfast](city)
+- The name of the city is [Derry](city)
+- city: [Glasgow](city)
+- it's a small city, the name is [Omagh](city)
+- it is in the country, [Strabane](city)
+- [Antrim](county)
+- The name is [county Derry](county)
+- county: [Tyrone](county)
+- it's a small county, the name is [Down](county)
+- it is in the country, [Tyrone](city)
+- I live in [England](country)
+- The name is [Scotland](country)
+- country: [Wales](country)
+- it's name is [Northern Ireland](country)
+- it is [Northern Ireland](country)
+- [abc@bot.com](email)
+- [my email is def@abc.com](email)
+- [that email is xyz@def.com](email)
+- [John](first_name)
+- [my first name is Jane](first_name)
+- [Amy](first_name)
+- [Darshan](first_name)
+- [Michael is my first name](first_name)
+- [Smith](last_name)
+- [Doe](last_name)
+- [my last name is Devine](last_name)
+- [Gadkari](last_name)
+- [Thomas is my last name](last_name)
+- [07734534534](phone_number)
+- [07623423423](phone_number)
+- [07845345345](phone_number)
+- [07934534534](phone_number)
+
+## intent:greet
+- Hi
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- Good morning
+- hi again
+- hi folks
+
+## intent:bye
+- goodbye
+- goodnight
+- good bye
+- good night
+- see ya
+- toodle-oo
+- bye bye
+- gotta go
+- farewell
+
+## intent:thank
+- Thanks
+- Thank you
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- cheers
+
+## intent:affirm
+- Accept
+- Awesome!
+- Cool
+- Good
+- Great
+- I accept
+- I accept.
+- I agree
+- I am using it
+- I changed my mind. I want to accept it
+- I do
+- I get it
+- I guess so
+- I have used it in the past
+- I will
+- I'd absolutely love that
+- I'm sure I will!
+- I'm using it
+- Nice
+- OK
+- Ofcourse
+- Oh yes
+- Oh, ok
+- Ok
+- Ok let's start
+- Ok.
+- Okay
+- Okay!
+- PLEASE
+- SURE
+- Sure
+- Sweet
+- That would be great
+- YES
+- YUP
+- Yea
+- Yeah
+- Yeah sure
+- Yep
+- Yep that's fine
+- Yep!
+- Yepp
+- Yes
+- Yes I do
+- Yes please
+- Yes please!
+- Yes, I accept
+- Yes.
+- Yup
+- a little
+- absolutely
+- accept
+- accepted
+- agreed
+- ah ok
+- alright
+- alright, cool
+- amayzing
+- amazing!
+- awesome
+- awesome!
+- confirm
+- cool
+- cool :)
+- cool story bro
+- cool!
+- coolio
+- definitely yes without a doubt
+- done
+- fair enough
+- fcourse
+- fine
+- fuck yeah!
+- go
+- go ahead
+- go for it
+- going super well
+- good.
+- great
+- great lets do that
+- great!
+- hell yeah
+- hell yes
+- hm, i'd like that
+- how nice!
+- i accept
+- i agree
+- i am!
+- i want that
+- i will!
+- it is ok
+- its okay
+- ja
+- ja cool
+- ja thats great
+- jezz
+- jo
+- k
+- kk
+- lets do it
+- lets do this
+- not bad
+- of course
+- ofcoure i do
+- ofcourse
+- oh awesome!
+- oh cool
+- oh good !!
+- oh super
+- ok
+- ok cool
+- ok fine
+- ok friend
+- ok good
+- ok great
+- ok i accept
+- ok sara
+- ok, I behave now
+- ok, I understood
+- ok, Sara
+- ok...
+- okay
+- okay cool
+- okay sure
+- okay..
+- oki doki
+- okie
+- ook
+- oui
+- perfect
+- please
+- si
+- sort of
+- sure
+- sure thing
+- sure!
+- that is cool
+- that ok
+- that sounds fine
+- that's great
+- thats fine
+- thats good
+- thats great
+- top
+- uh-huh
+- very much
+- well yes
+- y
+- ya
+- ya cool
+- ya go for it
+- ya i want
+- ya please
+- ya thats cool
+- yaah
+- yap
+- yaps
+- yas
+- yay
+- ye
+- ye splease
+- yea
+- yeah
+- yeah do that
+- yeah sure
+- yeah'=
+- yeah, why not
+- yeeeeezzzzz
+- yeeees
+- yep
+- yep i want that
+- yep if i have to
+- yep please
+- yep that's nice
+- yep thats cool
+- yep, will do thank you
+- yep. :/
+- yes
+- yes ...
+- yes I do
+- yes accept please
+- yes baby
+- yes cool
+- yes give me information
+- yes go ahead
+- yes go for it
+- yes great
+- yes i accept
+- yes i agree
+- yes i have built a bot before
+- yes i have!
+- yes it is
+- yes it was okay
+- yes of course
+- yes pleae
+- yes please
+- yes please!
+- yes pls
+- yes sirfr
+- yes that's great
+- yes that's what i want
+- yes you can
+- yes'
+- yes, I'd love to
+- yes, cool
+- yes, give me information, please
+- yes,i am
+- yes.
+- yesh
+- yess
+- yessoo
+- yesss
+- yesssss
+- yesyestyes
+- yesyesyes
+- yez
+- yop
+- you asked me a yes or no question, which i answered with yes
+- you got me, I accept, if you want me to
+- yres
+- ys
+- yup
+- yyeeeh
+- Okay cool
+- ok..
+- considering
+- More a less
+- cool beans
+- sounds good!
+- really
+
+## intent:deny
+- I don't want to
+- I don't want to give it to you
+- I don't want to say
+- I dont want to tell
+- I'm not giving you my email address
+- I'm not going to give it to you
+- NEIN
+- NO
+- NO DON"T WANT THIS!
+- Nah
+- Neither
+- Never
+- Nevermind
+- No
+- No thank you
+- No, not really.
+- No, thank you
+- No.
+- Nopes
+- Not really
+- absolutely not
+- decline
+- definitely not
+- deny
+- i decline
+- i don not like this
+- i don't think so
+- i don't want either of those
+- i don't want to
+- i don't want to give you my email
+- i dont want to
+- i dont want to accept :P lol
+- i guess it means - no
+- i'm afraid not
+- i'm not sure
+- it is going pretty badly
+- it sucks
+- it sux
+- n
+- na
+- nah
+- nah I'm good
+- nah not for me
+- nah, first time
+- nah, i'm good
+- nehi
+- nein
+- neither
+- never
+- never mind
+- no
+- no :(
+- no I dont want
+- no I haven't decided yet if I want to sign up
+- no and no again
+- no bots at all
+- no go
+- no i can't
+- no i don't accept
+- no i dont want to
+- no i dont want to accept :P lol
+- no i won't
+- no ma'am
+- no sir
+- no sorry
+- no thank s
+- no thank you
+- no thanks
+- no way
+- no you did it wrong
+- no!!!!
+- no, i hate it
+- no, my frst time
+- no, thank you
+- no, thanks
+- no, thankyou
+- no. u r idiot
+- non
+- noooooooooo
+- noooooooooooooooooooooooooooooooooooooooo
+- nop
+- nope
+- nope!
+- nope. i am good
+- not going well at all
+- not really
+- not right now
+- not yet
+- nö
+- sorry not right now
+- still dont want to tell
+- thanks but no thanks
+- this sucks
+- very bad
+- I do not need help installing
+- I don't wanna tell the name of my company
+- no stop
+- stop it, i do not care!!!
+- none of them
+- I don't agree
+
